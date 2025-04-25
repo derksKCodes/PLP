@@ -69,6 +69,17 @@ setosa                 5.006             3.428              1.462             0.
 versicolor             5.936             2.770              4.260             1.326     1.0
 virginica              6.588             2.974              5.552             2.026     2.0
 
-**Visualizations:**
+##Visualizations
 
-![Screenshot 2025-04-25 135933](Week_7-Python_Assignment/Screenshot 2025-04-25 135933.png)
+![Visualizations](images/Screenshot%202025-04-25%20135933.png)
+
+## 🙌 Credits
+
+* Developed by: Derricks
+* Development: Cypher Jr.
+
+## 📬 Let’s Connect!
+
+* 📧 Email: derrick01.dk@gmail.com
+* 🐙 GitHub: github.com/derksKCodes
+* 🌍 Live Portfolio: https://derkskcodes.github.io/Portfolio-Web/
