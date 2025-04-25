@@ -1,17 +1,17 @@
 # Base class Coder 
 class Coder:
     def __init__(self, name, language, experience):
-        self.__name = name  # Encapsulated attribute (private)
+        self._name = name  # Encapsulated attribute (private)
         self.language = language
         self.experience = experience  
     
     # Getter method to get the private attribute __name
     def getter(self):
-        return self.__name.upper()  # Returns the name in uppercase
+        return self._name.upper()  # Returns the name in uppercase
     
     # Setter method to set the private name attribute
     def set_name(self, name):
-        self.__name = name
+        self._name = name
 
 
 # Derived class FrontEndDev inherits from Coder
