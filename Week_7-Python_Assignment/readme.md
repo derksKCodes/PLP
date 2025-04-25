@@ -21,6 +21,7 @@ Make sure you have the following libraries installed:
 
 You can install them using pip:
 
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 UsageClone the repository (or download the script).Ensure you have the required libraries installed.Run the Python script:python your_script_name.py
@@ -77,6 +78,7 @@ setosa                 5.006             3.428              1.462             0.
 versicolor             5.936             2.770              4.260             1.326     1.0
 virginica              6.588             2.974              5.552             2.026     2.0
 
+```
 
 
 ## Visualizations
