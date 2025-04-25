@@ -21,15 +21,20 @@ Make sure you have the following libraries installed:
 
 You can install them using pip:
 
-```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 UsageClone the repository (or download the script).Ensure you have the required libraries installed.Run the Python script:python your_script_name.py
-Replace your_script_name.py with the actual name of the Python file.OutputThe script will:Print the first 5 rows of the dataset.Print the dataset information (number of rows, columns, data types).Print the number of missing values per column.Print the first 5 rows of the dataset after cleaning (dropping missing values, if any).Print descriptive statistics for the numerical columns.Print the mean values of the numerical columns grouped by species.Display four plots in a 2x2 grid:Sample OutputFirst 5 rows of the dataset:   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  target    species
+
+
+
+OutputFirst 5 rows of the dataset:   
+sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  target    species
 0                5.1             3.5              1.4             0.2       0  setosa
 1                4.9             3.0              1.4             0.2       0  setosa
 2                4.7             3.2              1.3             0.2       0  setosa
 3                4.6             3.1              1.5             0.2       0  setosa
 4                5.0             3.6              1.4             0.2       0  setosa
+
 Dataset information:<class 'pandas.core.frame.DataFrame'>
 RangeIndex: 150 entries, 0 to 149
 Data columns (total 6 columns):
@@ -41,6 +46,7 @@ target               150 non-null int64
 species              150 non-null category
 dtypes: category(1), float64(4), int64(1)
 memory usage: 6.5 KB
+
 Missing values per column:sepal length (cm)    0
 sepal width (cm)     0
 petal length (cm)    0
@@ -48,12 +54,14 @@ petal width (cm)     0
 target               0
 species              0
 dtype: int64
+
 Dataset after cleaning (dropping missing values):   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  target    species
 0                5.1             3.5              1.4             0.2       0  setosa
 1                4.9             3.0              1.4             0.2       0  setosa
 2                4.7             3.2              1.3             0.2       0  setosa
 3                4.6             3.1              1.5             0.2       0  setosa
 4                5.0             3.6              1.4             0.2       0  setosa
+
 Basic statistics of numerical columns:       sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  target
 count         150.000000        150.000000         150.000000        150.000000   150.0
 mean            5.843333          3.057333           3.758000          1.199333     1.0
@@ -69,7 +77,9 @@ setosa                 5.006             3.428              1.462             0.
 versicolor             5.936             2.770              4.260             1.326     1.0
 virginica              6.588             2.974              5.552             2.026     2.0
 
-##Visualizations
+
+
+## Visualizations
 
 ![Visualizations](images/Screenshot%202025-04-25%20135933.png)
 
