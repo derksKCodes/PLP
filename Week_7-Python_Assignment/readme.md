@@ -11,15 +11,13 @@ This Python script performs data analysis and visualization on the Iris dataset 
 
 ## Prerequisites
 
-Make sure you have the following libraries installed:
+libraries installed:
 
 -   `pandas`
 -   `numpy`
 -   `matplotlib`
 -   `seaborn`
 -   `scikit-learn`
-
-You can install them using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
